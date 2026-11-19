@@ -1,0 +1,50 @@
+.shows-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Shows {
+    width: 180px;
+    text-align: center;
+}
+
+.Shows img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+}
+
+.Shows h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.shows-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Shows {
+    width: 180px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.Shows img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    display: block;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
